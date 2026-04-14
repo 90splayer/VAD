@@ -16,15 +16,12 @@ MIL (bag of segments)
 Unbiased MIL training
 
 
+pip install torch numpy scikit-learn matplotlib
+pip freeze > requirements.txt
+
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 cd src
 python main.py
-
-
-
-pip install torch numpy scikit-learn matplotlib
-
-pip freeze > requirements.txt
