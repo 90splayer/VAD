@@ -68,6 +68,15 @@ Shows:
 Normal video → flat curve
 Anomaly video → spikes
 
+| File         | Responsibility            |
+| ------------ | ------------------------- |
+| `main.py`    | Load + combine datasets ✅ |
+| `dataset.py` | Define `load_dataset()`   |
+| `train.py`   | Train + evaluate          |
+| `model.py`   | MIL model                 |
+| `loss.py`    | Unbiased MIL loss         |
+
+
 vad_project/
 │
 ├── data/
