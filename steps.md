@@ -24,6 +24,22 @@ Each video becomes: (features.shape) = (num_frames, 1024)
 🚀 STEP 3: Organise your dataset
 
 In VS Code:
+vad_project/
+│
+├── data/
+│   ├── normal/
+│   ├── anomaly/
+│
+├── src/
+│   ├── dataset.py
+│   ├── model.py
+│   ├── loss.py
+│   ├── train.py
+│   ├── utils.py
+│
+├── requirements.txt
+└── main.py
+
 
 data/
 ├── normal/
@@ -77,18 +93,4 @@ Anomaly video → spikes
 | `loss.py`    | Unbiased MIL loss         |
 
 
-vad_project/
-│
-├── data/
-│   ├── normal/
-│   ├── anomaly/
-│
-├── src/
-│   ├── dataset.py
-│   ├── model.py
-│   ├── loss.py
-│   ├── train.py
-│   ├── utils.py
-│
-├── requirements.txt
-└── main.py
+
