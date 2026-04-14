@@ -18,6 +18,7 @@ Unbiased MIL training
 
 
 pip freeze > requirements.txt
+
 pip install -r requirements.txt
 
 
@@ -26,4 +27,5 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 cd src
+
 python main.py
